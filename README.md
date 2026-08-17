@@ -1,3 +1,5 @@
+![Dashboard](images/dashboard.png)
+
 # Monthly Vehicle Pass Records — Data Entry, Cleaning & Analysis
 
 Cleaning and analysing 1,025 monthly vehicle pass sales from a multi-tenant trading complex, from handwritten receipts through to a dashboard.
