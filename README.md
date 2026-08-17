@@ -1,5 +1,3 @@
-![Dashboard](images/dashboard.png)
-
 # Monthly Vehicle Pass Records — Data Entry, Cleaning & Analysis
 
 Cleaning and analysing 1,025 monthly vehicle pass sales from a multi-tenant trading complex, from handwritten receipts through to a dashboard.
@@ -7,15 +5,15 @@ Cleaning and analysing 1,025 monthly vehicle pass sales from a multi-tenant trad
 I was hired for data entry with some light analysis attached. I keyed the records in by hand, and when the job was nearly over I went back through what I'd typed and found it wasn't ready to be analysed at all. This repository is the before and the after.
 
 **Headline:** RM199,680 across 1,025 passes over six trading days. Along the way I found every date in the file was stored in the wrong month, 20 passes charged at the wrong rate, and roughly 140 repeat purchases that the original anonymisation had made invisible.
-
+![Dashboard](images/dashboard.png)
 ---
 
 ## Contents
 
 | File | What it is |
 |---|---|
-| `01_raw_daily_records.xlsx` | The data as originally kept — one sheet per trading day, 1,021 records, every defect intact |
-| `02_cleaned_analysis_workbook.xlsx` | Dashboard, analysis, cleaned master and unit occupancy |
+| [`data/01_raw_daily_records.xlsx`](data/01_raw_daily_records.xlsx) | The data as originally kept — one sheet per trading day, 1,021 records, every defect intact |
+| [`data/02_cleaned_analysis_workbook.xlsx`](data/02_cleaned_analysis_workbook.xlsx) | Dashboard, analysis, cleaned master and unit occupancy |
 
 Both files are anonymised. See [Privacy](#privacy).
 
@@ -115,3 +113,12 @@ Every data-quality defect described above is preserved deliberately in the raw s
 Excel — `VSTACK`, `INDEX`/`MATCH`, `SUMIFS`/`COUNTIFS`, dynamic arrays, data validation, pivot tables, charts.
 
 Summary tables are formula-driven rather than static pivots, so the workbook stays correct when the underlying data changes.
+
+---
+
+## Use of this material
+
+The analysis, documentation and workbook structure in this repository are my
+own work, shared for portfolio purposes. The underlying records come from a
+completed engagement and are published here in anonymised form only. Please
+ask before reusing the data or the workbooks.
